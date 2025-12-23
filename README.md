@@ -8,32 +8,32 @@ This project demonstrates a modern data warehouse implementation and analytics s
 ## 🏗️ Data Architecture
 The project follows the Medallion Architecture with **Bronze, Silver, and Gold layers**:
 
-1-**Bronze Layer**: Stores raw transactional data (sales, inventory, customers, products) as-is from source CSV files.
-2-**Silver Layer**: Cleansed, standardized, and normalized data prepared for analysis.
-3-**Gold Layer**: Business-ready data modeled into a star schema for reporting and analytics.
+1. **Bronze Layer**: Stores raw transactional data (sales, inventory, customers, products) as-is from source CSV files.
+2. **Silver Layer**: Cleansed, standardized, and normalized data prepared for analysis.
+3. **Gold Layer**: Business-ready data modeled into a star schema for reporting and analytics.
 
 ---
 ## 📖 Project Overview
 
 The project includes:
 
-1-**ETL Pipelines**: Extract, transform, and load data from ERP and CRM source systems into the warehouse.
-2-**Data Modeling**: Create fact and dimension tables optimized for analytical queries.
-3-**Business Intelligence**: Develop KPIs and interactive Power BI dashboards for executive decision-making.
+1. **ETL Pipelines** Extract, transform, and load data from ERP and CRM source systems into the warehouse.
+2. **Data Modeling** Create fact and dimension tables optimized for analytical queries.
+3. **Business Intelligence**: Develop KPIs and interactive Power BI dashboards for executive decision-making.
 
 ---
 🎯Key Focus Areas of the Dashboard:
 
-1-**Business Growth Drivers** : Identify what drives company growth: sales, customers, top products, and high-performing regions.
-2-**Productivity & Supply Impact** : Analyze operational efficiency and supply chain impact: stock levels, lead times, turnover, and depot performance.
-3-**Risk & Business Protection** : Measure and mitigate financial and operational risks: at-risk revenue, lost sales, and supplier performance.
+1. **Business Growth Drivers** : Identify what drives company growth: sales, customers, top products, and high-performing regions.
+2. **Productivity & Supply Impact** : Analyze operational efficiency and supply chain impact: stock levels, lead times, turnover, and depot performance.
+3. **Risk & Business Protection** : Measure and mitigate financial and operational risks: at-risk revenue, lost sales, and supplier performance.
 
 ---
 ## 🛠️ Tools & Technologies
 
--**SQL Server** – Database, ETL, and data modeling
--**Power BI** – DAX, Power Query, and dashboards
--**GitHub** – Version control and project documentation
+- **SQL Server** – Database, ETL, and data modeling
+- **Power BI** – DAX, Power Query, and dashboards
+- **GitHub** – Version control and project documentation
 
 ## 🚀 Project Requirements
 
