@@ -8,9 +8,9 @@ This project demonstrates a modern data warehouse implementation and analytics s
 ## 🏗️ Data Architecture
 The project follows the Medallion Architecture with **Bronze, Silver, and Gold layers**:
 
-1.**Bronze Layer**: Stores raw transactional data (sales, inventory, customers, products) as-is from source CSV files.
-2.**Silver Layer**: Cleansed, standardized, and normalized data prepared for analysis.
-3.**Gold Layer**: Business-ready data modeled into a star schema for reporting and analytics.
+1-**Bronze Layer**: Stores raw transactional data (sales, inventory, customers, products) as-is from source CSV files.
+2-**Silver Layer**: Cleansed, standardized, and normalized data prepared for analysis.
+3-**Gold Layer**: Business-ready data modeled into a star schema for reporting and analytics.
 
 ---
 ## 📖 Project Overview
